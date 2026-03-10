@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="CharacterData" format=3 uid="uid://dqv05xv53eob7"]
+
+[ext_resource type="Script" uid="uid://crutynllf5t6w" path="res://scripts/systems/character_data.gd" id="1_svb4b"]
+
+[resource]
+script = ExtResource("1_svb4b")
+nome = "maria_navalha"
+vida_maxima = 120.0
+velocidade = 170.0
+velocidade_dash = 320.0
+cooldown_dash = 1.4
+forca_pulo = -350.0
+dano_base = 35.0
+cor_primaria = Color(0.8, 0.101960786, 0.101960786, 1)
+metadata/_custom_type_script = "uid://crutynllf5t6w"

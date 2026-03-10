@@ -1,0 +1,18 @@
+# Godot 4 - arquivos gerados automaticamente
+.godot/
+*.uid
+
+# Builds e exports
+exports/
+build/
+
+# Imports temporários (regenerados automaticamente)
+.import/
+
+# Configurações locais do editor
+*.local
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

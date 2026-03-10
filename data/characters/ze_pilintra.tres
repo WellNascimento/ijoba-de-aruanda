@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CharacterData" format=3 uid="uid://bmpx7cvh0r6gs"]
+
+[ext_resource type="Script" uid="uid://crutynllf5t6w" path="res://scripts/systems/character_data.gd" id="1_yidev"]
+
+[resource]
+script = ExtResource("1_yidev")
+nome = "ze_pilintra"
+velocidade = 200.0
+velocidade_dash = 450.0
+cooldown_dash = 0.8
+forca_pulo = -400.0
+metadata/_custom_type_script = "uid://crutynllf5t6w"
