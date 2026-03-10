@@ -14,6 +14,10 @@ config/name="ijoba-de-aruanda"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+GameManager="*uid://b14j53tlwu0yh"
+
 [importer_defaults]
 
 animation_library={
