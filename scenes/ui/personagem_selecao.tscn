@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://bwa4g426835lp"]
+
+[ext_resource type="Script" uid="uid://uvtsnq7k5gvd" path="res://scripts/systems/personagem_selecao.gd" id="1_fsjqr"]
+
+[node name="PersonagemSelecao" type="Control" unique_id=1263518101]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_fsjqr")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=11585231]
+layout_mode = 0
+offset_right = 1280.0
+offset_bottom = 720.0
+color = Color(0.039215688, 0, 0.09411765, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=405563447]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="título" type="Label" parent="VBoxContainer" unique_id=639261108]
+layout_mode = 2
+text = "\"Quem você é, malandro?\""
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer" unique_id=1873264253]
+layout_mode = 2
+
+[node name="Zé Pilintra" type="Button" parent="VBoxContainer/HBoxContainer" unique_id=205802323]
+layout_mode = 2
+text = "\"Zé Pilintra\""
+
+[node name="Maria Navalha" type="Button" parent="VBoxContainer/HBoxContainer" unique_id=423513939]
+layout_mode = 2
+text = "\"Maria Navalha\""
+
+[node name="descrição" type="Label" parent="VBoxContainer" unique_id=261634013]
+layout_mode = 2
+text = "\"Escolha seu personagem\""
